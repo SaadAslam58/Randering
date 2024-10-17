@@ -11,12 +11,12 @@ const Main = () => {
         <div className="h-90 w-2/4 text-2xl border border-black p-2 shadow-lg shadow-red-600  rounded-lg bg-red-800 ">
           <h1>
             Client-side rendering (CSR) is a web development technique where the
-            browser downloads the entire page's content and JavaScript, and then
+            browser downloads the entire pages content and JavaScript, and then
             renders the content dynamically on the client-side. This approach
             shifts the load from the server to the client, providing a more
             interactive user experience. However, it can lead to longer initial
             load times as the browser has to download and process JavaScript
-            files before displaying content. It's widely used in modern
+            files before displaying content. It is widely used in modern
             single-page applications.
           </h1>
         </div>
@@ -49,7 +49,7 @@ const Main = () => {
       <div className="flex justify-evenly my-20 items-center ">
         <div className="h-90 w-2/4 text-2xl border border-black p-2 shadow-lg shadow-red-600  rounded-lg bg-red-800 ">
           <h1>
-          Static Site Generation (SSG) involves pre-rendering web pages at build time, transforming them into static HTML files. This method ensures fast load times since the pre-generated pages can be quickly served from a CDN. It's ideal for content that doesn't change frequently, as the content is fixed at build time. SSG offers great SEO benefits, as search engines can easily crawl the static content. Perfect for blogs, documentation sites, and marketing pages!
+          Static Site Generation (SSG) involves pre-rendering web pages at build time, transforming them into static HTML files. This method ensures fast load times since the pre-generated pages can be quickly served from a CDN. It is ideal for content that does not change frequently, as the content is fixed at build time. SSG offers great SEO benefits, as search engines can easily crawl the static content. Perfect for blogs, documentation sites, and marketing pages!
           </h1>
         </div>
         <div>
